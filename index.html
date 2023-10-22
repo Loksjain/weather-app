@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <input type="text" id="city-input" placeholder="Enter a city">
+        <button id="search-btn">Search</button>
+        <div id="weather-info">
+            <h2 id="city-name">City Name</h2>
+            <p id="weather-description">Description: </p>
+            <p id="temperature">Temperature: </p>
+        </div>
+        <button id="favorite-btn">Add to Favorites</button>
+        <ul id="favorite-cities-list">
+            <!-- List of favorite cities will be displayed here -->
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
